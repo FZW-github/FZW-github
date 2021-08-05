@@ -1,0 +1,206 @@
+body {
+    min-width: 9.066667rem;
+    max-width: 36.426667rem;
+    margin: 0 auto;
+    // width: 1366px;
+    // height: 1200px;
+    background-color: #fff;
+}
+// 约束当屏幕大于750px时字体不再变化
+@media screen and (min-wideth: 1150px) {
+    html{
+        font-size: 37.5px !important;
+    }
+}
+// 头部
+header {
+    display: flex; // 弹性布局
+    justify-content: flex-end; //结尾对齐
+    height: 3.2rem;
+    background-color: #fff;
+    margin: 0 0 0 2.213333rem;
+    
+    .logo {
+        flex: 1;
+        display: inline-block;
+        justify-content: flex-start;   //开头对齐
+        width: 3.733333rem;
+        height: 100%;
+        line-height: 3.2rem;
+        img {
+            height: 1.973333rem;
+        }
+    }
+    nav {
+        display: flex;
+        width: 20rem;
+        height: 3.2rem;
+        background-color: #FFF;
+        .item {
+            display: flex;
+            justify-content: center; //水平居中
+            align-items: center;  //垂直居中
+            font-size: .533333rem;
+            width: 3.733333rem;
+            color: #404040;
+            background-color: #FFF;
+        }
+        .item1 {
+            color: #FFF;
+            background-color: #464646;
+        }
+    }
+    
+}
+// 图片
+.hd-img {
+    position: relative;
+    width: 36.426667rem;
+    height: 8rem;
+    background: url(../images/Productdisplay/Product-display_02.png) no-repeat;
+}
+// 产品保障
+.product {
+    display: flex;
+        justify-content: flex-end;
+    height: 11.466667rem;
+    margin: 3.466667rem 2.213333rem;
+    .img {
+        flex: 1;
+    }
+    .text {
+        margin-right: 2.666667rem;
+        width: 11.6rem;
+        height: 11.2rem;
+        background-color: rgb(255, 255, 255);
+        h2 {
+            margin: 2.666667rem 0 .64rem 0;
+            font-size: .613333rem;
+            color: #050505;
+        }
+        p {
+            margin-bottom: .32rem;
+            font-size: .4rem;
+        }
+    }
+}
+// 家私
+.end {
+    position: relative;
+    height: 5.6rem;
+    background-image: url(../images/Productdisplay/Product-display_08.png);
+    // filter: blur(3px);
+
+    .end-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5.6rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-align: center;
+        h2 {
+            margin-top: 1.6rem;
+            font-size: .8rem;
+        }
+        p {
+            margin-top: .64rem;
+            font-size: .4rem;
+        }
+    }
+}
+// 分类
+.sort {
+    margin: 0 2.213333rem;
+    height: 29.866667rem;
+    background-color: rgb(255, 255, 255);
+    nav {
+        display: flex;
+        height: 6.533333rem;
+        .item {
+            display: flex;
+            justify-content: center; //水平居中
+            align-items: center;  //垂直居中
+            font-size: .533333rem;
+            height: 100%;
+            width: 4.933333rem;
+            color: #404040;
+            background-color: #FFF;margin-right: .8rem;
+            div {
+                font-size: .586667rem;
+                width: 100%;
+                height: 1.6rem;
+                text-align: center;
+                line-height: 1.6rem;
+                border-radius: .8rem;
+            }
+            div:hover {
+            color: #FFF;
+            background-color: #f13a3a;
+            }
+        }
+        .item1 div{
+            color: #FFF;
+            background-color: #f13a3a;
+        }
+    }
+    .views {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 4rem;
+        height: 19.333333rem;
+        .left {
+            width: 20.4rem;
+            margin-right: 1.333333rem;
+            flex: 1;
+            .img {
+                margin-bottom: .533333rem;
+                width: 100%;
+                height: 9.066667rem;
+                overflow: hidden;
+            }
+            img {
+                width: 100%;
+                height: 200%;
+            }
+        }
+        .right {
+            width: 9.333333rem;
+            .img {
+                margin-bottom: .266667rem;
+                width: 100%;
+                height: 9.333333rem;
+                overflow: hidden;
+            }
+            img {
+                width: 100%;
+                height: 200%;
+            }
+        }
+    }
+}
+// footer
+footer {
+    display: flex;
+    // 水平居中
+    justify-content: center;
+    //垂直居中
+    align-items: center;
+    height: 5.2rem;
+    width: 100%;
+    background-color: #191818;
+    .footer-item {
+        display: flex;
+        // 水平居中
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.066667rem;
+        p {
+            font-size: .4rem;
+            font-weight: 1000;
+            color: #474343;
+        }
+    }
+}

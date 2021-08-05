@@ -1,0 +1,191 @@
+body {
+  min-width: 9.066667rem;
+  max-width: 36.426667rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+@media screen and (min-wideth: 1150px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 3.2rem;
+  background-color: #fff;
+  margin: 0 0 0 2.213333rem;
+}
+header .logo {
+  flex: 1;
+  display: inline-block;
+  justify-content: flex-start;
+  width: 3.733333rem;
+  height: 100%;
+  line-height: 3.2rem;
+}
+header .logo img {
+  height: 1.973333rem;
+}
+header nav {
+  display: flex;
+  width: 20rem;
+  height: 3.2rem;
+  background-color: #FFF;
+}
+header nav .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.533333rem;
+  width: 3.733333rem;
+  color: #404040;
+  background-color: #FFF;
+}
+header nav .item1 {
+  color: #FFF;
+  background-color: #464646;
+}
+.hd-img {
+  position: relative;
+  width: 36.426667rem;
+  height: 8rem;
+  background: url(../images/Productdisplay/Product-display_02.png) no-repeat;
+}
+.product {
+  display: flex;
+  justify-content: flex-end;
+  height: 11.466667rem;
+  margin: 3.466667rem 2.213333rem;
+}
+.product .img {
+  flex: 1;
+}
+.product .text {
+  margin-right: 2.666667rem;
+  width: 11.6rem;
+  height: 11.2rem;
+  background-color: #ffffff;
+}
+.product .text h2 {
+  margin: 2.666667rem 0 0.64rem 0;
+  font-size: 0.613333rem;
+  color: #050505;
+}
+.product .text p {
+  margin-bottom: 0.32rem;
+  font-size: 0.4rem;
+}
+.end {
+  position: relative;
+  height: 5.6rem;
+  background-image: url(../images/Productdisplay/Product-display_08.png);
+}
+.end .end-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+.end .end-text h2 {
+  margin-top: 1.6rem;
+  font-size: 0.8rem;
+}
+.end .end-text p {
+  margin-top: 0.64rem;
+  font-size: 0.4rem;
+}
+.sort {
+  margin: 0 2.213333rem;
+  height: 29.866667rem;
+  background-color: #ffffff;
+}
+.sort nav {
+  display: flex;
+  height: 6.533333rem;
+}
+.sort nav .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.533333rem;
+  height: 100%;
+  width: 4.933333rem;
+  color: #404040;
+  background-color: #FFF;
+  margin-right: 0.8rem;
+}
+.sort nav .item div {
+  font-size: 0.586667rem;
+  width: 100%;
+  height: 1.6rem;
+  text-align: center;
+  line-height: 1.6rem;
+  border-radius: 0.8rem;
+}
+.sort nav .item div:hover {
+  color: #FFF;
+  background-color: #f13a3a;
+}
+.sort nav .item1 div {
+  color: #FFF;
+  background-color: #f13a3a;
+}
+.sort .views {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4rem;
+  height: 19.333333rem;
+}
+.sort .views .left {
+  width: 20.4rem;
+  margin-right: 1.333333rem;
+  flex: 1;
+}
+.sort .views .left .img {
+  margin-bottom: 0.533333rem;
+  width: 100%;
+  height: 9.066667rem;
+  overflow: hidden;
+}
+.sort .views .left img {
+  width: 100%;
+  height: 200%;
+}
+.sort .views .right {
+  width: 9.333333rem;
+}
+.sort .views .right .img {
+  margin-bottom: 0.266667rem;
+  width: 100%;
+  height: 9.333333rem;
+  overflow: hidden;
+}
+.sort .views .right img {
+  width: 100%;
+  height: 200%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.2rem;
+  width: 100%;
+  background-color: #191818;
+}
+footer .footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.066667rem;
+}
+footer .footer-item p {
+  font-size: 0.4rem;
+  font-weight: 1000;
+  color: #474343;
+}
