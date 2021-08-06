@@ -1,0 +1,139 @@
+/* 注册页面 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid rgb(206, 67, 67);
+}
+.logo {
+    width: 177px;
+    height: 56px;
+    background-color: rgb(160, 25, 25);
+    margin-top: 15px;
+}
+.register {
+    height: 520px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+.title h3{
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    border-bottom: solid 1px #ccc;
+    background-color: #ececec;
+}
+.title h3 em{
+    font-size: 14px;
+    float: right;
+}
+.title h3 a{
+    color: #c81623;
+}
+.reg_form {
+    width: 600px;
+    height: 420px;
+    margin: 40px auto 0;
+}
+.reg_form li {
+    margin-bottom: 15px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+input {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.error {
+    font-size: 12px;
+    color: #df3033;
+    margin-left: 10px;
+}
+.error i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #df3033;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.success {
+    font-size: 12px;
+    color: #0f9958;
+    margin-left: 10px;
+}
+.success i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #0f9958;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.safe {
+    padding-left: 187px;
+    color: #b2b2b2;
+    font-size: 10px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    font-size: 12px;
+    margin-top: 30px;
+    padding-left: 105px;
+}
+.agree input {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.agree a {
+    color: rgb(20, 141, 197);
+}
+.over {
+    margin: 30px 0 0 130px;
+    color: #fff;
+    width: 200px;
+    height: 34px;
+    border: none;
+    font-size: 14px;
+    background-color: #c81623;
+}
+.footer {
+    height: 120px;
+    text-align: center;
+}
+.links {
+    margin-top: 20px;
+    height: 30px;
+}
+.copyright {
+    line-height: 20px;
+}

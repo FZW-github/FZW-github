@@ -1,0 +1,240 @@
+/* 首页的css样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0  0  219px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    /* background-color: rgb(90, 159, 172); */
+}
+.focus img {
+    width: 720px;
+    height: 455px;
+}
+.focus img:hover {
+    margin-left: 5px;
+    /* transition 添加过渡 */
+    transition: all .3s;
+}
+.arrow-l,.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'icomoon';
+    background: rgb(0, 0, 0,.4);
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 1px solid rgba(255,255,255,.7);
+    margin: 0 3px;
+    border-radius: 50%;
+    /* 鼠标经过边小手 */
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+    box-shadow: '';
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 163px;
+    border: 1px solid #f1f1f1;
+}
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #f1f1f1;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news-bd {
+    padding: 10px 15px;
+}
+.news-bd li {
+    height: 23px;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+.lifeservice li a {
+    display: block;
+    /* 解决i引起的外边距塌陷合并的问题 */
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: #a14141;
+    margin: 10px auto;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+    background: url(../upload/2.jpg) no-repeat -1140px -330px;
+}
+
+/* recommend */
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.recommend-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(124, 63, 63);
+}
+.recommend-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #CCC;
+}
+.recommend-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #CCC;
+    background: url(../upload/2.jpg) no-repeat -1140px -330px;;
+    margin-top: 9px;
+}
+.recommend-bd .recom-bd-li {
+    border-right: none;
+}
+/* floor */
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+.tab-list li {
+    float: left
+}
+.tab-list li a {
+    margin: 0 15px;
+}
+.box-bd {
+    height: 361px;
+    background-color: #fff;
+}
+.w209 {
+    width: 209px;
+    background-color: #f5f5f5;
+}
+.w329 {
+    width: 329px;
+    height: 361px;
+    background-color: rgb(91, 185, 162);
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.tab-con li {
+    float: left;
+    height: 361px;
+}
+.tab-con-item {
+    height: 179px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(93, 108, 175);
+}
+.tab-con-item2 {
+    height: 360px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(120, 193, 211);
+}
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 15px;
+}
+.w209 .img {
+    width: 209px;
+    height: 245px;
+    background-color: rgb(223, 204, 142);
+}
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!-- zh-CN 中文网页 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页优化三大标签 -->
+    <!-- 1.网站标题 -->
+    <title>品优购-HTML+CSS案例</title>
+    <!-- 2.网站描述 -->
+    <meta name="description" content="1.JavaScript基础从变量的定义与使用、流程控制语句、数组、函数、构造函数、内置对象以及对象等
+    2.web API 讲解如何获取DOM元素，如何操作DOM 元素，BOM操作 移动端制作网页特效
+    3. 后面还会有js高级，ES6类面向对象语法，面向对象案例，原型和原型链等等。
+    4. 还有会jquery 综合 + echarts数据可视化"> 
+    <!-- 3.关键词 -->
+    <meta name="keywords" content="1.JavaScript,2.web API讲解如何获取DOM元素,3. ES6语法，4. jquery + echarts数据可视化"> 
+    
+    <!-- 引入网站图标 -->
+    <link rel="shortcut icon" href="Batman.ico" type="image/x-icon">
+    <!-- 引入初始化css文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式css文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入首页样式css文件 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 顶部快捷导航 -->
+    <div class="shortcut">
+        <!-- 顶部版心 -->
+        <div class="w">
+            <!-- 左边 -->
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎您！</li>
+                    <li><a href="#">请登录</a>  <a href="#" class="style-red">免费注册</a></li>
+                </ul>
+            </div>
+            <!-- 右边 -->
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的品优购</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">品优购会员</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">关注品优购</a><i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">客户服务</a><i class="icomoon"></i></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">网站导航</a><i class="icomoon"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航 -->
+
+    <!-- 头部header -->
+    <div class="header w">
+        <!-- logo -->
+        <div class="logo">
+            <h1><a href="index.html" title="品优购">品优购</a></h1>
+        </div>
+        
+        <!-- search搜索 -->
+        <div class="search">
+            <input type="text" class="text" placeholder="语言开发">
+            <button class="btn">搜索</button>
+        </div>
+
+        <!-- hotwords热词 -->
+        <div class="hotwords">
+            <a href="#" class="style-red">9.9元团购</a>
+            <a href="#">优惠购</a>
+            <a href="#">亿元补贴</a>
+            <a href="#">电脑</a>
+            <a href="#">办公</a>
+            <a href="#">美妆</a>
+        </div>
+
+        <!-- shopcar购物车 -->
+        <div class="shopcar">
+            <i class="car"></i>我的购物车 <i class="arrow"></i>
+            <i class="count">8</i>
+        </div>
+    </div>
+    <!-- 头部header -->
+
+    <!-- nav -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt">全部商品分类</div>
+                <div class="dd">
+                    <ul>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="/list.html">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                        <li class="menu_item"><a href="#">手机</a><i></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navitems fl">
+                <ul>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                    <li><a href="#">服装</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+
+    <!-- main -->
+    <div class="w">
+        <div class="main">
+            <div class="focus fl">
+                <a href="#" class="arrow-l"></a>
+                <a href="#" class="arrow-r"></a>
+                <ul>           
+                    <li><a href="#"><img src="upload/2.jpg" alt=""></a></li>
+                </ul>
+                <ol class="circle">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+            <div class="newsflash fr">
+                <div class="news">
+                    <div class="news-hd">
+                        品优购快报
+                        <a href="#">更多</a>
+                    </div>
+                    <div class="news-bd">
+                        <ul特惠>
+                            <li><a href="#">【特惠】最高减免99元</a></li>
+                            <li><a href="#">【特惠】最高减免99元</a></li>
+                            <li><a href="#">【特惠】最高减免99元</a></li>
+                            <li><a href="#">【特惠】最高减免99元</a></li>
+                            <li><a href="#">【特惠】最高减免99元</a></li>
+                        </ul特惠>
+                    </div>
+                </div>
+                <div class="lifeservice">
+                    <ul>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                        <li><a href="#"><i></i><p>手机</p></a></li>
+                    </ul><a href="#"></a>
+                </div>
+                <div class="bargain"></div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+
+    <!-- recommend -->
+    <div class="recommend w">
+        <div class="recommend-hd fl">
+            <img src="#" alt="">
+            <h3>今日特惠</h3>
+        </div>
+        <div class="recommend-bd fl">
+            <ul>
+                <li><a href="#"></a><img src="" alt=""></li>
+                <li><a href="#"></a><img src="" alt=""></li>
+                <li><a href="#"></a><img src="" alt=""></li>
+                <li class="recom-bd-li"><a href="#"><img src="" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- recommend -->
+
+    <!-- floor -->
+    <div class="floor">
+        <div class="jiadian w">
+            <div class="box-hd">
+                <h3>家用电器</h3>
+                <div class="tab-list">
+                    <ul>
+                        <li><a href="#" class="style-red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">空调</a>|</li>
+                        <li><a href="#">冰箱</a>|</li>
+                        <li><a href="#">洗衣机</a>|</li>
+                        <li><a href="#">抽烟机</a>|</li>
+                        <li><a href="#">扫地机器人</a>|</li>
+                        <li><a href="#">电视</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <ul class="tab-con">
+                    <li class="w209">
+                        <ul class=" tab-con-list">
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                        </ul>
+                        <div class="img"></div>
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="w329">
+                        <img src="" alt="">
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                        <div class="tab-con-item">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item2">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item2">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="shouji w">
+            <div class="box-hd">
+                <h3>手机</h3>
+                <div class="tab-list">
+                    <ul>
+                        <li><a href="#" class="style-red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">空调</a>|</li>
+                        <li><a href="#">冰箱</a>|</li>
+                        <li><a href="#">洗衣机</a>|</li>
+                        <li><a href="#">抽烟机</a>|</li>
+                        <li><a href="#">扫地机器人</a>|</li>
+                        <li><a href="#">电视</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <ul class="tab-con">
+                    <li class="w209">
+                        <ul class=" tab-con-list">
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                            <li><a href="#">节能补贴</a></li>
+                        </ul>
+                        <div class="img"></div>
+                        <!-- <img src="" alt=""> -->
+                    </li>
+                    <li class="w329">
+                        <img src="" alt="">
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                        <div class="tab-con-item">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item2">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="w219">
+                        <div class="tab-con-item2">
+                            <a href="#"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- floor -->
+
+    <!-- 固定电梯导航 -->
+    <div class="fixedtool">
+        <ul>
+            <li class="current">家用电器</li>
+            <li>家用电器</li>
+            <li>家用电器</li>
+            <li>家用电器</li>
+            <li>家用电器</li>
+            <li>家用电器</li>
+        </ul>
+    </div>
+    <!-- 固定电梯导航 -->
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li><i class="mod_service_fw"></i><div class="mod_service_hz"><h4>服务</h4><p>客户服务</p></div></li>
+                    <li><i class="mod_service_fw"></i><div class="mod_service_hz"><h4>服务</h4><p>客户服务</p></div></li>
+                    <li><i class="mod_service_fw"></i><div class="mod_service_hz"><h4>服务</h4><p>客户服务</p></div></li>
+                    <li><i class="mod_service_fw"></i><div class="mod_service_hz"><h4>服务</h4><p>客户服务</p></div></li>
+                    <li><i class="mod_service_fw"></i><div class="mod_service_hz"><h4>服务</h4><p>客户服务</p></div></li>
+                </ul>
+            </div>
+            <div class="mod_help">
+                <dl class="mod_help_item">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">问题</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">问题</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">问题</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">问题</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">问题</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mod_help_item mod_help_app">
+                    <dt><a href="#">帮助中心</a></dt>
+                    <dd><img src="upload/erweima.pan" alt=""><p>品优购客户端</p></dd>
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <p class="mod_copyright_link">
+                设为首页    |   关于百度    |   About Baidu    |    使用百度前必读    |    意见反馈    |    帮助中心
+                </p>
+                <p  class="mod_copyright_info">京公网安备11000002000001号京ICP证030173号©2021 Baidu (京)-经营性-2017-0020信息网络传播视听节目许可证 0110516</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* 详情页CSS */
+.de_container {
+    margin-top: 10px;
+}
+.crumb_wrap {
+    height: 26px;
+}
+.crumb_wrap a{
+    margin-right: 10px;
+}
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+.preview_wrap img{
+    width: 398px;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.preview_list {
+    
+    position: relative;
+    margin-top: 60px;
+    height: 60px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list_item li img{
+    width: 54px;
+    height: 54px;
+}
+.list_item .current {
+    border:2px solid #C81623;
+}
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+    font-family: 'icomoon';
+}
+.arrow_prev {
+    left: 0;
+}
+.arrow_next {
+    right: 0;
+}
+
+.itemInfo_wrap {
+    width: 718px;
+    background-color: rgb(105, 47, 47);
+}
