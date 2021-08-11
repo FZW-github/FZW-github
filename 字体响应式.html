@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const font_size=()=>{
+            let width = document.documentElement.clientWidth;
+            let size = (16*(width/320)>40?40+"px":(16*(width/320)+"px"));
+            document.documentElement.style.fontSize = size;
+        }
+        window.addEventListener("load", font_size);
+        window.addEventListener("resize", font_size);
+    </script>
+    <style>
+        div {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div>123</div>
+</body>
+</html>

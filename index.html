@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="./css/nomalize.css">
     <!-- 安装插件Easy Less 保存自动转换为css文件 -->
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script>
+        const font_size=()=>{
+            let width = document.documentElement.clientWidth;
+            let size = (16*(width/320)>40?40+"px":(16*(width/320)+"px"));
+            document.documentElement.style.fontSize = size;
+        }
+        window.addEventListener("load", font_size);
+        window.addEventListener("resize", font_size);
+    </script>
 </head>
 <body>
     <section class="warp">

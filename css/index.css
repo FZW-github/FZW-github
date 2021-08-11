@@ -1,6 +1,7 @@
 body {
+  min-width: 600px;
+  max-width: 1366px;
   margin: 0 auto;
-  width: 1366px;
   background-color: #fff;
 }
 @media screen and (min-wideth: 750px) {
